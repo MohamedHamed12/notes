@@ -62,9 +62,9 @@ e# api
             <aside>
             💡
             
-            RequestResponse Cycle. 
+            RequestRes.ponse Cycle. 
             
-            ![Untitled](api%205686e6fc3c8a4c2483ba0757b7031baf/Untitled.png)
+            ![Untitled](img/Untitled.png)
             
             To make a valid request, the client needs to include four things:
             
@@ -133,7 +133,7 @@ e# api
             of info to the client. For example, you may have seen this page during
             your internet wanderings:
             
-            ![Untitled](api%205686e6fc3c8a4c2483ba0757b7031baf/Untitled%201.png)
+            ![Untitled](img/Untitled%201.png)
             
         
         The status code behind this response is 404, which means "Not Found."
@@ -143,7 +143,7 @@ e# api
         The server will not send the
         client any more data until it receives a new request.
         
-        ![Untitled](api%205686e6fc3c8a4c2483ba0757b7031baf/Untitled%202.png)
+        ![Untitled](img/Untitled%202.png)
         
         </aside>
         
@@ -166,7 +166,7 @@ e# api
         service. JSON is a very simple format that has two pieces: keys and
         values. Keys represent an attribute about the object being described.
         
-        ![Untitled](api%205686e6fc3c8a4c2483ba0757b7031baf/Untitled%203.png)
+        ![Untitled](img/Untitled%203.png)
         
         Associative Array.⇒an associative array is just a nested object.
         
@@ -177,7 +177,7 @@ e# api
         simple building blocks that API makers use to structure their data. The
         main block is called a node.
         
-        ![Untitled](api%205686e6fc3c8a4c2483ba0757b7031baf/Untitled%204.png)
+        ![Untitled](img/Untitled%204.png)
         
     - How Data Formats Are Used In HTTP
         
@@ -205,7 +205,7 @@ e# api
         With these two headers, Content-Type and Accept, the client and server
         can work with the data formats they understand and need to work
         
-        ![Untitled](api%205686e6fc3c8a4c2483ba0757b7031baf/Untitled%205.png)
+        ![Untitled](img/Untitled%205.png)
         
     </aside>
     
@@ -227,7 +227,7 @@ e# api
         and passes that along in the request in an HTTP header called
         Authorization.
         
-        ![Untitled](api%205686e6fc3c8a4c2483ba0757b7031baf/Untitled%206.png)
+        ![Untitled](img/Untitled%206.png)
         
          If there is no match, the server
         returns a special status code (401) to let the client know that
@@ -280,7 +280,7 @@ e# api
             The user kicks off the process by letting the client know they want it to
             connect to the server. Usually, this is by clicking a button.
             
-            ![Untitled](api%205686e6fc3c8a4c2483ba0757b7031baf/Untitled%207.png)
+            ![Untitled](img/Untitled%207.png)
             
         - Step 2 - Client Directs User to Server
             
@@ -288,7 +288,7 @@ e# api
             that the server will send the user back to once the user authenticates,
             called the callback URL
             
-            ![Untitled](api%205686e6fc3c8a4c2483ba0757b7031baf/Untitled%208.png)
+            ![Untitled](img/Untitled%208.png)
             
         - Step 3 - User Logs-in to Server and Grants Client Access
             
@@ -312,7 +312,7 @@ e# api
             acting on behalf of a real user. The server responds back with an access
             token.
             
-            ![Untitled](api%205686e6fc3c8a4c2483ba0757b7031baf/Untitled%209.png)
+            ![Untitled](img/Untitled%209.png)
             
         - Step 6 - Client Fetches Data from Server
             
@@ -387,12 +387,12 @@ e# api
         Query means search and string means text. The query
         the string is a bit of text that goes onto the end of a URL to pass things
         along with the API. For example, everything after the question mark is the
-        query string in [http://example.com/orders?key=value](http://example.com/orders?key=value).
+        query string in [http://example.com/orders?key=value]
         query parameters.
         
         The client can include multiple query
         parameters by listing one after another, separating them by an
-        ampersand ("&"). For example: [http://example.com/orders](http://example.com/orders)?
+        ampersand ("&"). For example: [http://example.com/orders]
         topping=pepperoni&crust=thin.
         
     - pagination
